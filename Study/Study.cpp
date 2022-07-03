@@ -5,7 +5,7 @@
 int main()
 {
 	int a;
-	printf("Please, input a: ");
+	printf("Please, input value a: ");
 	scanf_s("%d", &a);
 	printf("%d\n", a);
 	func(a, "TEST ");

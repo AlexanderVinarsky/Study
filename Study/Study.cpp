@@ -1,25 +1,11 @@
-﻿#include <stdio.h>
-#include <stdlib.h>
+﻿#include<iostream>
 
-void func(int a[])
-{
-	*(a - 1) = 10;
-	a++;
-	*a = 20;
-	a[-3] = 30;
-}
+//Тест ГитХаба
+
 int main()
 {
-	int c, state = OUT, n = 0;
-	while ((c = getchar()) != '\n')
-	{
-		if (isdigit(c))
-		{
-			++n;
-			state = IN;
-		}
-		else
-			state = OUT;
-	}
-	printf("%d", n);
+	int a;
+	scanf_s("%d", &a);
+	printf("%d\n", a);
 }
+
